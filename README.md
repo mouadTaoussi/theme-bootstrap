@@ -26,7 +26,6 @@
 
 
 ### Install
-
 ```sh
 npm install @oruga-ui/theme-bootstrap
 ```
@@ -38,7 +37,6 @@ yarn add @oruga-ui/theme-bootstrap
 ```
 
 ### Configure
-
 ```js
 import { createApp } from 'vue'
 import App from './App.vue'
@@ -59,7 +57,6 @@ createApp(App)
 Please note, the package also works for `@oruga-ui/oruga` (Vue 2) and can be used without importing any other Oruga styling or the full Oruga bundle.
 
 ### Customization (SASS/SCSS)
-
 You have two options for including the theme: include all the styling at once (including the full Bootstrap), or include the Oruga theme and Bootstrap separately.
 
 ```scss
@@ -105,7 +102,6 @@ You have two options for including the theme: include all the styling at once (i
 ```
 
 ### Override default config
-
 In case you want to replace the default style of a component you can override or add new classes changing ``bootstrapConfig``; more details about components customization on https://oruga.io/documentation/#customization
 
 ```js
@@ -141,5 +137,4 @@ Thank you to everyone involved for improving this project, day by day 💚
 [Complete list](CONTRIBUTORS.md).
 
 ## License
-
 Code released under [MIT](https://github.com/oruga-ui/theme-bootstrap/blob/main/LICENSE) license.
