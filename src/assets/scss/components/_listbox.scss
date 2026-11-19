@@ -37,6 +37,8 @@
 
     .list-group-item {
         border-width: 0 0 var(--#{$prefix}list-group-border-width);
+        display: flex;
+        justify-content: flex-start;
 
         &.disabled {
             --bs-list-group-disabled-bg: var(--bs-secondary-bg-subtle);
