@@ -26,6 +26,10 @@ $steps-vertical-padding: 1em 0 !default;
             .step-title {
                 font-size: $size;
             }
+
+            .divider {
+                top: $size;
+            }
         }
     }
 }
@@ -104,7 +108,6 @@ $steps-vertical-padding: 1em 0 !default;
                 height: var(--#{$prefix}steps-divider-height);
                 display: block;
                 position: absolute;
-                top: $font-size-base;
                 left: -50%;
                 width: 100%;
                 z-index: -1;
