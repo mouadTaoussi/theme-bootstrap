@@ -49,9 +49,11 @@ $taginput-counter-font-size: 0.75rem !default;
         }
     }
 
+    .dropdown,
     .dropdown-trigger,
-    .input {
+    input {
         height: 100%;
+        width: 100%;
     }
 
     input {
@@ -79,14 +81,6 @@ $taginput-counter-font-size: 0.75rem !default;
     @each $name, $size in $sizes {
         &.size-#{$name} {
             font-size: $size;
-
-            .dropdown {
-                height: 100%;
-            }
-
-            input {
-                height: 100%;
-            }
         }
     }
 
